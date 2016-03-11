@@ -1,8 +1,14 @@
-<nav>
-  <ul class="list-unstyled list-inline">
-    <li class="early_bird_logo">Early Bird Patents</li>
-    <li class="nav_links">About</li>
-    <li class="nav_links">Musings</li>
-    <li class="nav_links">Contact</li>
-  </ul>
-</nav>
+<div class="container">
+  <nav>
+    <ul class="list-unstyled list-inline">
+      <li class="early_bird_logo"><%= link_to "Early Bird Patents", root_path  %></li>
+      
+      <li class="nav_links"><%= link_to "Musings", "#"  %></li>
+      <li class="nav_links"><%= link_to "Contact", new_contact_path  %></li>
+      <li class="nav_links"><%= link_to "About", "#"  %></li>
+    </ul>
+  </nav>
+</div>
+
+
+
