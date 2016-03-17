@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.header_list {
-  list_style: unstyled;
+.header {
+  margin-top: 20px;
 }
 
 .early_bird_logo {
   float: left;
   text-size: 700px;
-  margin: 30px;
+  margin: 10px;
   border: 2px solid black;
   padding: 10px 10px 10px 10px;
 }
@@ -17,7 +17,10 @@
 .nav_links {
   float: right;
   padding: 15px;
-  margin: 30px;
+  margin: 10px;
   text-size: 700px;
 
 }
+
+// FAQ stylings
+

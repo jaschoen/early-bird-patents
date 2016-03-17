@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
   </head>
 <body>
   <%= render "layouts/header" %>
@@ -13,6 +14,7 @@
   <div class="container">
     <%= yield %>
   </div>
+  <%= render "layouts/faq" %>
   
   <%= render "layouts/footer" %>
 
@@ -25,7 +27,8 @@
   ga('create', 'UA-74991139-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 </html>
